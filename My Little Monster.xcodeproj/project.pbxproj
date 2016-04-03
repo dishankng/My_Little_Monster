@@ -12,6 +12,13 @@
 		51BA46641C37BE890048FB08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46621C37BE890048FB08 /* Main.storyboard */; };
 		51BA46661C37BE890048FB08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46651C37BE890048FB08 /* Assets.xcassets */; };
 		51BA46691C37BE890048FB08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46671C37BE890048FB08 /* LaunchScreen.storyboard */; };
+		51BA46711C37D8810048FB08 /* Dragimg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BA46701C37D8810048FB08 /* Dragimg.swift */; };
+		51BA46731C37DFB30048FB08 /* Monsterimg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BA46721C37DFB30048FB08 /* Monsterimg.swift */; };
+		51BA46791C3803B30048FB08 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46741C3803B30048FB08 /* bite.wav */; };
+		51BA467A1C3803B40048FB08 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46751C3803B30048FB08 /* cave-music.mp3 */; };
+		51BA467B1C3803B40048FB08 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46761C3803B30048FB08 /* death.wav */; };
+		51BA467C1C3803B40048FB08 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46771C3803B30048FB08 /* heart.wav */; };
+		51BA467D1C3803B40048FB08 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51BA46781C3803B30048FB08 /* skull.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		51BA46651C37BE890048FB08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51BA46681C37BE890048FB08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51BA466A1C37BE890048FB08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51BA46701C37D8810048FB08 /* Dragimg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragimg.swift; sourceTree = "<group>"; };
+		51BA46721C37DFB30048FB08 /* Monsterimg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monsterimg.swift; sourceTree = "<group>"; };
+		51BA46741C3803B30048FB08 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		51BA46751C3803B30048FB08 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		51BA46761C3803B30048FB08 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		51BA46771C3803B30048FB08 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		51BA46781C3803B30048FB08 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +68,19 @@
 		51BA465D1C37BE890048FB08 /* My Little Monster */ = {
 			isa = PBXGroup;
 			children = (
+				51BA46741C3803B30048FB08 /* bite.wav */,
+				51BA46751C3803B30048FB08 /* cave-music.mp3 */,
+				51BA46761C3803B30048FB08 /* death.wav */,
+				51BA46771C3803B30048FB08 /* heart.wav */,
+				51BA46781C3803B30048FB08 /* skull.wav */,
 				51BA465E1C37BE890048FB08 /* AppDelegate.swift */,
 				51BA46601C37BE890048FB08 /* ViewController.swift */,
 				51BA46621C37BE890048FB08 /* Main.storyboard */,
 				51BA46651C37BE890048FB08 /* Assets.xcassets */,
 				51BA46671C37BE890048FB08 /* LaunchScreen.storyboard */,
 				51BA466A1C37BE890048FB08 /* Info.plist */,
+				51BA46701C37D8810048FB08 /* Dragimg.swift */,
+				51BA46721C37DFB30048FB08 /* Monsterimg.swift */,
 			);
 			path = "My Little Monster";
 			sourceTree = "<group>";
@@ -123,6 +144,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BA467D1C3803B40048FB08 /* skull.wav in Resources */,
+				51BA46791C3803B30048FB08 /* bite.wav in Resources */,
+				51BA467B1C3803B40048FB08 /* death.wav in Resources */,
+				51BA467C1C3803B40048FB08 /* heart.wav in Resources */,
+				51BA467A1C3803B40048FB08 /* cave-music.mp3 in Resources */,
 				51BA46691C37BE890048FB08 /* LaunchScreen.storyboard in Resources */,
 				51BA46661C37BE890048FB08 /* Assets.xcassets in Resources */,
 				51BA46641C37BE890048FB08 /* Main.storyboard in Resources */,
@@ -136,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51BA46731C37DFB30048FB08 /* Monsterimg.swift in Sources */,
 				51BA46611C37BE890048FB08 /* ViewController.swift in Sources */,
 				51BA465F1C37BE890048FB08 /* AppDelegate.swift in Sources */,
+				51BA46711C37D8810048FB08 /* Dragimg.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +277,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My Little Monster/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dishanknarang.My-Little-Monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -260,9 +290,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "My Little Monster/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dishanknarang.My-Little-Monster";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -285,6 +317,7 @@
 				51BA466F1C37BE890048FB08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
